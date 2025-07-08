@@ -7,7 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class EmsBackendApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(EmsBackendApplication.class, args);
+
+		Student student = new Student(1,"revin");
+		System.out.println(student.getId());
+		System.out.println(student.getName());
+
+
+
 	}
 
 }
