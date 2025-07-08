@@ -14,8 +14,6 @@ public class EmsBackendApplication {
 		System.out.println(student.getId());
 		System.out.println(student.getName());
 
-
-
 	}
 
 }
